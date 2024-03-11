@@ -1,16 +1,16 @@
-/**4) Um haras est· com dificuldade em calcular a quantidade de ferraduras necess·rias para equipar todos os cavalos hospedados.
-Crie uma soluÁ„o para o problema em forma de programa.**/
+/**4) Um haras est√° com dificuldade em calcular a quantidade de ferraduras necess√°rias para equipar todos os cavalos hospedados.
+Crie uma solu√ß√£o para o problema em forma de programa.**/
 
 #include <locale.h>
 
 main (){
     setlocale(LC_ALL, "Portuguese");
 
-    int n_cavalos, n_ferraduras;
+    int NCavalos, NFerraduras;
 
-    printf("Quantos cavalos h· em seu haras? \n");
-    scanf("%d", &n_cavalos);
-    n_ferraduras = n_cavalos * 4;
+    printf("Quantos cavalos h√° em seu haras? \n");
+    scanf("%d", &NCavalos);
+    NFerraduras = NCavalos * 4;
 
-    printf("VocÍ precisar· de %d ferraduras para os %d cavalos hospedados no haras.", n_ferraduras, n_cavalos);
+    printf("Voc√™ precisar√° de %d ferraduras para os %d cavalos hospedados no haras.", NFerraduras, NCavalos);
 }
