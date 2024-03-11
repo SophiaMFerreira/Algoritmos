@@ -6,11 +6,11 @@ Crie uma solução para o problema em forma de programa.**/
 main (){
     setlocale(LC_ALL, "Portuguese");
 
-    int NCavalos, NFerraduras;
+    int nCavalos, nFerraduras;
 
     printf("Quantos cavalos há em seu haras? \n");
-    scanf("%d", &NCavalos);
-    NFerraduras = NCavalos * 4;
+    scanf("%d", &nCavalos);
+    nFerraduras = nCavalos * 4;
 
-    printf("Você precisará de %d ferraduras para os %d cavalos hospedados no haras.", NFerraduras, NCavalos);
+    printf("Você precisará de %d ferraduras para os %d cavalos hospedados no haras.", nFerraduras, nCavalos);
 }
