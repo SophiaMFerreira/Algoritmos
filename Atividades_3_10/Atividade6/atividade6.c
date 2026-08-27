@@ -7,9 +7,9 @@ main (){
     setlocale(LC_ALL, "Portuguese");
 
     float nota1, nota2, nota3, soma, mediaP;
-    int peso2 = 2;
-    int peso3 = 3;
-    int peso5 = 5;
+    #define PESO_N1 2
+    #define PESO_N2 3
+    #define PESO_N3 5
 
     printf("Informe a 1ª nota: \n");
     scanf("%f", &nota1);
@@ -17,7 +17,7 @@ main (){
     scanf("%f", &nota2);
     printf("Informe a 3ª nota: \n");
     scanf("%f", &nota3);
-    soma = (nota1 * peso2) + (nota2 * peso3) + (nota3* peso5);
+    soma = (nota1 * PESO_N1) + (nota2 * PESO_N2) + (nota3* PESO_N3);
     mediaP = soma/ 3;
 
     printf("A média ponderada das notas: %.2f, %.2f e %.2f é igual a %.2f", nota1, nota2, nota3, mediaP);
